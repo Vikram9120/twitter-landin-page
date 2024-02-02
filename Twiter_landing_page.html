@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twiter</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+    padding: 14px 15px;
+    font-size: 15px;
+    float: right;
+    display: flex;
+    text-align: center;
+}
+.navbar a:hover{
+    color: white;
+    background-color: #3f95cf;
+}
+.navbar a.active{
+    color: white;
+    background-color: #139ffc;
+}
+
+.main_div{
+    background-color: #cde5f1;
+    height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+}
+.main_heading h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+#sign_button{
+    overflow: hidden;
+}
+#sign_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+#learn_more{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="navbar">
+    <a class="active" href="#">Sing in with twiter</a>
+    <a href="#">FAQ</a>
+    <a href="#">Pricing</a>
+    <a href="#">Home</a>
+</div>
+    <!--<div id="logo">
+        <p>Chirp</p>
+    </div>-->
+        <section>
+            <div class="main_div">
+                <div class="main_content">
+                    <div> <!--Button and heading and paragraph container-->
+                        <div><!--Heading and paragraph Container-->
+                            <div class="main_heading">
+                                <h1>Twiter analytics<br>taken to a whole new<br>level.</h1>
+                            </div>
+                            <div>
+                                <p>Chirp is a suite of Twitter that will help you better understand<br>
+                                your audience, which tweets they like, and most important, when<br>they are the most active on Twitter </p>
+                            </div>
+                        </div>
+                        <div id="sign_button">
+                            <a id="btn" href="">Sign in with Twitter</a>
+                            <!--<button class="btn"><img src="#" alt="">Sign in with Twitter</button>-->
+                            <a id="learn_more" href="#" >Learn more<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>
